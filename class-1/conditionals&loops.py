@@ -103,7 +103,15 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 print("even numbers:", even_numbers)
 
 
+# Alternative (general loop)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_numbers = []
 
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+
+print("even numbers:", even_numbers)
 
 
 # Practical Example – Fibonacci Series Using Loop

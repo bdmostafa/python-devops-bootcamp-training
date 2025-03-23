@@ -22,6 +22,7 @@ student = {"name": "Rahim", "age": 22}
 # Set
 unique_numbers = {1, 2, 3, 4}
 
+ports = {22, 80, 443}
 
 # type convertion 
 num_str = "123"

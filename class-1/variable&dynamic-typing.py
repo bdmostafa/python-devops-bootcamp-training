@@ -22,5 +22,16 @@ print("lst =", lst, " | id:", id(lst))
 lst.append(4)  # change value in the same space
 print("Updated lst =", lst, " | id:", id(lst))
 
+# Assignment operators
+var1 = 3
+var1 *= 3
+var1 /= 5
 
+a = 5 #0101
+b = 3 #0011
+# print(a | b) 0111
 
+print(a & b)
+print(a ^ b)
+print(~a)
+print(a | b)
