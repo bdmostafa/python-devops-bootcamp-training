@@ -1,0 +1,24 @@
+2025-03-09 09:59:55,044 - INFO - CPU: 6.3%, Memory: 74.1%, Disk: 29.5%
+2025-03-09 09:59:56,050 - INFO - CPU: 12.8%, Memory: 74.0%, Disk: 29.5%
+2025-03-09 09:59:57,056 - INFO - CPU: 24.0%, Memory: 73.9%, Disk: 29.5%
+2025-03-09 09:59:58,146 - INFO - CPU: 42.9%, Memory: 74.9%, Disk: 29.5%
+2025-03-09 09:59:59,180 - INFO - CPU: 87.7%, Memory: 75.5%, Disk: 29.5%
+2025-03-09 09:59:59,180 - ERROR - ALERT! High CPU usage detected: 87.7%
+2025-03-09 10:00:00,182 - INFO - CPU: 84.8%, Memory: 76.9%, Disk: 29.5%
+2025-03-09 10:00:00,183 - ERROR - ALERT! High CPU usage detected: 84.8%
+2025-03-09 10:00:01,186 - INFO - CPU: 76.0%, Memory: 78.0%, Disk: 29.5%
+2025-03-09 10:00:02,196 - INFO - CPU: 64.7%, Memory: 78.7%, Disk: 29.5%
+2025-03-09 10:00:03,198 - INFO - CPU: 76.3%, Memory: 79.1%, Disk: 29.5%
+2025-03-09 10:03:11,897 - INFO - CPU: 83.7%, Memory: 80.6%, Disk: 29.5%
+2025-03-09 10:03:11,898 - ERROR - ALERT! High CPU usage detected: 83.7%
+2025-03-09 10:03:11,898 - ERROR - ALERT! High Memory usage detected: 80.6%
+2025-03-09 10:03:12,900 - INFO - CPU: 87.0%, Memory: 81.0%, Disk: 29.5%
+2025-03-09 10:03:12,900 - WARNING - ALERT! High CPU usage detected: 87.0%
+2025-03-09 10:03:12,900 - WARNING - ALERT! High Memory usage detected: 81.0%
+2025-03-09 10:03:13,904 - INFO - CPU: 57.9%, Memory: 81.8%, Disk: 29.5%
+2025-03-09 10:03:13,904 - WARNING - ALERT! High Memory usage detected: 81.8%
+2025-03-09 10:03:14,910 - INFO - CPU: 61.8%, Memory: 82.1%, Disk: 29.5%
+2025-03-09 10:03:14,911 - WARNING - ALERT! High Memory usage detected: 82.1%
+2025-03-23 23:49:18,620 - INFO - Starting server health monitoring...
+2025-03-23 23:49:19,625 - INFO - CPU: 14.6%, Memory: 79.0%, Disk: 26.5%
+2025-03-23 23:49:20,630 - INFO - CPU: 16.1%, Memory: 78.9%, Disk: 26.5%

@@ -1,0 +1,3 @@
+Hello, DevOps Engineers!
+This is a test file for file handling in Python.
+Appending new content!
