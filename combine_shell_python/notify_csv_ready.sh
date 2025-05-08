@@ -11,7 +11,8 @@ python3 booking_review_scrapper.py
 # This script uploads a CSV file to a Slack channel using the Slack API.
 # SLACK_TOKEN="xoxb-*************"
 CHANNEL="#all-devops-test"  # or channel ID like C01234567
-CSV_FILE="booking_reviews.csv"
+CSV_FILE="booking_reviews.csv" 
+#Disclaimer: booking_reviews.csv has a public data from this url: https://www.booking.com/hotel/bd/grand-apartment-dhaka.html#tab-reviews resulted from the script
 WEBHOOK_URL="https://hooks.slack.com/services/webhook_url"
 
 # Check if file exists
