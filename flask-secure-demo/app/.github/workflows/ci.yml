@@ -1,0 +1,21 @@
+name: DevSecOps Security CI
+
+on: [push]
+
+jobs:
+  bandit-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Install Dependencies
+        run: |
+          pip install bandit requests
+          
+      - name: Run Bandit and Alert
+        run: python3 scan_with_bandit.py
