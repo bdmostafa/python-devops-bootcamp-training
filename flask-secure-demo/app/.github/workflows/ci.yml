@@ -16,6 +16,11 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install bandit requests
-          
+      
       - name: Run Bandit and Alert
         run: python3 scan_with_bandit.py
+
+      - name: Run Gitleaks Secret Scan
+        uses: gitleaks/gitleaks-action@v2
+        with:
+          fail: true  # Block build if secrets are found
