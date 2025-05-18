@@ -11,3 +11,4 @@ print(output)
 # Check for high severity issues
 if "HIGH" in output:
     requests.post(SLACK_WEBHOOK_URL, json={"text": "🚨 Bandit found HIGH severity issues!"})
+    # requests.post(SLACK_WEBHOOK_URL, json={"text": "🚨 Bandit found HIGH severity issues!"}, timeout=10)
