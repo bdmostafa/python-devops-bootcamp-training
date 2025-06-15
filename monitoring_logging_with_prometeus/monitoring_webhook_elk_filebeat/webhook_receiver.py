@@ -7,7 +7,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-SLACK_WEBHOOK_URL = 'YOUR_SLACK_WEBHOOK_URL_HERE' # Replace with your Slack webhook
+SLACK_WEBHOOK_URL = 'YOUR_SLACK_WEBHOOK_URL_HERE' # Replace with your Slack webhook following this documentation: https://api.slack.com/messaging/webhooks
 
 def send_slack_notification(alert_data):
     if not SLACK_WEBHOOK_URL:
