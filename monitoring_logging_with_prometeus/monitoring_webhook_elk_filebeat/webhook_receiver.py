@@ -39,20 +39,3 @@ def receive_alert():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, debug=True)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-# https://hooks.slack.com/services/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
