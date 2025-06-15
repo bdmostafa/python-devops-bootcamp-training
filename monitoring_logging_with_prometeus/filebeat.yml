@@ -1,0 +1,13 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - ./app.log
+    json.keys_under_root: true
+    json.add_error_key: true
+
+# output.elasticsearch:  # or use Logstash here
+output.logstash:
+  hosts: ["http://localhost:5044"]
+
+  # hosts: ["http://localhost:9200"]
+  # index: "python-logs"

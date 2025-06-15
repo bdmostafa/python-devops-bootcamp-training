@@ -1,0 +1,13 @@
+{"asctime": "2025-06-01 17:11:05,636", "levelname": "INFO", "message": "User login failed", "user": "mostafa"}
+{"asctime": "2025-06-15 20:30:56,285", "levelname": "INFO", "message": "User login failed", "user": "mostafa"}
+{"asctime": "2025-06-15 23:00:56,315", "levelname": "INFO", "message": "User login successful", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "INFO", "message": "User login successful", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "DEBUG", "message": "Fetching user preferences", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "WARNING", "message": "Password expires in 3 days", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "ERROR", "message": "Division by zero error occurred", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "CRITICAL", "message": "Unauthorized admin access attempt detected", "user": "hacker"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "INFO", "message": "User accessed dashboard", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "DEBUG", "message": "User clicked settings", "user": "mostafa"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "INFO", "message": "User accessed dashboard", "user": "guest_user"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "DEBUG", "message": "User clicked settings", "user": "guest_user"}
+{"asctime": "2025-06-15 23:01:47,160", "levelname": "ERROR", "message": "Application error: Simulated backend failure", "user": "guest_user"}

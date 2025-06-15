@@ -1,0 +1,20 @@
+groups:
+  - name: flask_app_alerts
+    rules:
+      - alert: FlaskAppHigh5xxErrorRate
+        expr: sum(rate(flask_http_request_duration_seconds_count{status="500"}[5m])) by (instance) > 0.5 # In 5 minutes, more than 0.5 requests per second with HTTP 500 status
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High rate of HTTP 500 errors on Flask app instance {{ $labels.instance }}"
+          description: "The Flask application instance {{ $labels.instance }} is returning HTTP 500 errors."
+
+      - alert: FlaskLoginFailedAttempts
+        expr: sum(rate(login_attempts_total{status="401"}[5m])) by (instance) > 3 # In 5 minutes, more than 3 failed login attempts
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Multiple failed login attempts on {{ $labels.instance }}"
+          description: "More than 3 failed login attempts recorded on Flask app instance {{ $labels.instance }}."

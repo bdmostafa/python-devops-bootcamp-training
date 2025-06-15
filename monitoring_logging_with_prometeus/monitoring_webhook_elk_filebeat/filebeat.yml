@@ -1,0 +1,9 @@
+filebeat.inputs:
+  - type: filestream
+    id: flask_app_logs
+    paths:
+      - /path/to/your/flask_app/logs/app.log # Flask app log file path
+    fields:
+      app_name: flask_app
+output.elasticsearch:
+  hosts: ["localhost:9200"] # Your Elasticsearch host
